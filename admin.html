@@ -12,6 +12,7 @@
       text-align: center;
       padding: 50px;
       color: white;
+      animation: fadeIn 1s ease;
     }
     form {
       display: inline-block;
@@ -39,6 +40,10 @@
     }
     button:hover {
       background-color: #ffe6ec;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
     }
   </style>
 </head>

@@ -10,6 +10,7 @@
       background: #f1f1f1;
       padding: 40px;
       text-align: center;
+      animation: fadeIn 1s ease;
     }
     a {
       display: inline-block;
@@ -19,6 +20,10 @@
       color: white;
       padding: 10px 20px;
       border-radius: 5px;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
     }
   </style>
 </head>
