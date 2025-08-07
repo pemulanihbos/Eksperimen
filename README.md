@@ -21,3 +21,10 @@ Ini adalah proyek landing page sederhana yang dibuat menggunakan HTML, CSS, dan 
 [Klik di sini untuk melihat versi live (GitHub Pages)](https://username.github.io/landing-page/)
 
 ## 📁 Struktur Folder
+landing-page/
+├── index.html
+├── halaman1.html
+├── halaman2.html
+├── admin.html
+├── login.js
+└── admin-dashboard.html
